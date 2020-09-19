@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:paddingTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:fontFamily="sans-serif-medium"
+                android:textStyle="normal"
+                android:textColor="#23203f"
+                android:layout_marginTop="47dp"
+                android:layout_gravity="center"
+                android:letterSpacing="-0.01"
+                android:lineSpacingExtra="20sp"
+                android:text="@string/add_card"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="63dp"
+                android:layout_marginRight="29dp"
+                android:layout_marginLeft="29dp"
+                android:orientation="vertical">
+
+                <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                    android:id="@+id/card_comp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000"
+                    android:layout_marginTop="13.3dp"
+                    android:hint="은행을 선택하세요"
+                    android:paddingRight="20dp"
+                    android:textSize="25sp"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="normal"
+                    android:textColor="#9391a4"
+                    />
+
+
+                <com.publicpart.bapayapp.customfonts.EditText_Roboto_Regular
+                    android:id="@+id/card_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000"
+                    android:layout_marginTop="13.3dp"
+                    android:hint="card_no"
+                    android:paddingRight="20dp"
+                    android:inputType="textPassword"
+                    android:textSize="25sp"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="normal"
+                    android:textColor="#9391a4" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/view_gray"
+                    android:layout_marginTop="18dp"
+                    />
+
+                <com.publicpart.bapayapp.customfonts.EditText_Roboto_Regular
+                    android:id="@+id/cvc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000"
+                    android:layout_marginTop="13.3dp"
+                    android:hint="cvc"
+                    android:paddingRight="20dp"
+                    android:inputType="textPassword"
+                    android:textSize="25sp"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="normal"
+                    android:textColor="#9391a4"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/view_gray"
+                    android:layout_marginTop="18dp"
+                    />
+
+                <com.publicpart.bapayapp.customfonts.EditText_Roboto_Regular
+                    android:id="@+id/pw"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000"
+                    android:layout_marginTop="13.3dp"
+                    android:hint="Password"
+                    android:paddingRight="20dp"
+                    android:inputType="textPassword"
+                    android:textSize="25sp"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="normal"
+                    android:textColor="#9391a4"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/view_gray"
+                    android:layout_marginTop="18dp"
+                    />
+
+                <com.publicpart.bapayapp.customfonts.EditText_Roboto_Regular
+                    android:id="@+id/card_thru"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000"
+                    android:layout_marginTop="13.3dp"
+                    android:hint="card_thru"
+                    android:paddingRight="20dp"
+                    android:inputType="date"
+                    android:textSize="25sp"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="normal"
+                    android:textColor="#9391a4"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/view_gray"
+                    android:layout_marginTop="18dp"
+                    />
+
+                <com.publicpart.bapayapp.customfonts.EditText_Roboto_Regular
+                    android:id="@+id/card_nick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#00000000"
+                    android:layout_marginTop="13.3dp"
+                    android:hint="card_nick"
+                    android:paddingRight="20dp"
+                    android:inputType="text"
+                    android:textSize="25sp"
+                    android:fontFamily="sans-serif-light"
+                    android:textStyle="normal"
+                    android:textColor="#9391a4"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/view_gray"
+                    android:layout_marginTop="18dp"
+                    />
+
+
+                <com.publicpart.bapayapp.customfonts.MyTextView_Roboto_Regular
+                    android:id="@+id/regist"
+                    android:layout_width="match_parent"
+                    android:layout_height="53dp"
+                    android:layout_marginLeft="33dp"
+                    android:layout_marginRight="33dp"
+                    android:layout_marginTop="70dp"
+                    android:background="@drawable/button_gradient"
+                    android:text="등록"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:lineSpacingExtra="34sp"
+                    android:textColor="#ffffff"
+                    android:textSize="22sp"
+                    android:paddingTop="10.5dp"
+                    android:paddingBottom="10.5dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

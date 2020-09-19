@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">BaPayApp</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="hint_id">ID를 입력하세요</string>
+    <string name="hint_password">패스워드를 입력하세요</string>
+    <string name="hint_name">성명을 입력하세요</string>
+    <string name="hint_mobileNO">휴대폰번호를 입력하세요</string>
+    <string name="hint_email">이메일을 입력하세요</string>
+    <string name="btn_login">로그인</string>
+    <string name="btn_register">회원가입</string>
+    <string name="btn_logout">로그아웃</string>
+    <string name="logo_fail">사진을 불러오는 데 실패했습니</string>
+    <string name="add_card">카드 등록</string>
+    <string name="card_nick">카드 별명</string>
+    <string name="card_comp">카드 회사</string>
+    <string name="card_no">카드 번호</string>
+    <string name="cvc">cvc 코드</string>
+    <string name="pw">카드 비밀번호</string>
+    <string name="card_thru">유효 기간</string>
+
+</resources>
