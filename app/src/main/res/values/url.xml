@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="basic_url">http://27.96.130.32:8000/UCController/uc/</string>
+    <string name="basic_url">http://49.50.175.232:8081/</string>
 </resources>

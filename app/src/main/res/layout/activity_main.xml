@@ -24,16 +24,18 @@
                 android:layout_gravity="center"
                 android:letterSpacing="-0.01"
                 android:lineSpacingExtra="20sp"
-                android:text="@string/app_name"
+                android:text="Simple Card App"
                 />
             <com.publicpart.bapayapp.customfonts.EditText_Roboto_Regular
+                android:enabled="false"
+                android:id="@+id/my_t_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:letterSpacing="0.0265"
                 android:textColor="#6e6e73"
                 android:layout_gravity="center"
-                android:text="지문만으로 간편하게 결제하세요"
+                android:text="Simple Card Application Description"
                 android:textSize="17sp"/>
 
 

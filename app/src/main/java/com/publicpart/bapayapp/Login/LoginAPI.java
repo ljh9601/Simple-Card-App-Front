@@ -6,6 +6,7 @@ import com.publicpart.bapayapp.R;
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
+import java.util.List;
 
 import okhttp3.RequestBody;
 import retrofit2.Call;
@@ -23,7 +24,7 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 public interface LoginAPI {
 
     @POST(value = "user/login/")
-    Call<PostLoginModel> postLogin(@Body PostLoginModel post);
+    Call<List<PostLoginModel>> postLogin(@Body PostLoginModel post);
 
 
 }
